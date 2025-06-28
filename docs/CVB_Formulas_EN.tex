@@ -1,0 +1,421 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath, amssymb}
+\usepackage{amsthm}
+\usepackage{geometry}
+\geometry{margin=1in}
+\usepackage{enumitem}
+\usepackage{hyperref}
+
+\title{Model of Conscious Volitional Becoming (CVB) — Formal Axioms and Logical Structure}
+\author{}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+\section*{Meta-Section: The Permanent Possible}
+
+\subsection*{[I] Core — Ontological Irrefutability of the Trilemma}
+\begin{align*}
+[1] & \quad \neg\exists x\ (x = \text{Absolute Nothingness}) \\
+[2] & \quad \neg\exists x\ (x = \text{Absolute Everything}) \\
+[3] & \quad \forall x\left(\text{Real}(x) \Rightarrow \text{Possible}(x)\right) \quad\land\quad \neg\exists x\left(\text{Real}(x) \land \neg\text{Possible}(x)\right)
+\end{align*}
+
+\subsection*{[II] Properties}
+
+\subsubsection*{[4] The Field of the Possible and Its Boundaries}
+\begin{align*}
+[4.1] & \quad PN(x) \equiv \forall t\ (x \notin V) \\
+[4.2] & \quad NN(x) \equiv \exists t_1, t_2\ (x \notin E \land R(x,t_1) \land \neg R(x,t_2)) \\
+[4.3] & \quad NV(x) \equiv \exists t_1, t_2\ (x \in V \land R(x,t_1) \land \neg R(x,t_2)) \\
+[4.4] & \quad PV(x) \equiv \forall t\ (x \in V \land R(x,t)) \\
+[4.5] & \quad \partial V\downarrow = \{x \in V \mid \exists t: R(x,t) \land \neg R(x,t+1)\} \\
+[4.6] & \quad \partial V\uparrow = \{x \in V \mid d(x) \rightarrow \max\}
+\end{align*}
+
+\subsubsection*{[5] The Possible ≠ The Existing}
+\[
+\forall x \in V,\quad x \in E \Rightarrow x \subset V\quad \text{and} \quad E \subsetneq V
+\]
+
+\subsubsection*{[6] The Cause of the Existing Is the Permanent Possible}
+\[
+\forall x \in E,\quad \exists p \in V_\infty:\ p \rightarrow x \quad \text{and} \quad \nexists q \in (\neg V \cup V_{\neg\infty}) : q \rightarrow x
+\]
+
+\subsubsection*{[7] The Stable Existence of the Permanent Possible = Becoming}
+\[
+\exists x\ (\text{ConstPoss}(x) \land \text{StableBecoming}(x)) \Rightarrow \text{SelfExisting}(x)
+\]
+
+\subsubsection*{[8] Where the Permanent and Non-Permanent Possible Become}
+\[
+\text{PV} \in V_\text{center}, \quad \text{NV},\; \text{NN} \in V_\text{rest}, \quad \forall x \notin V \Rightarrow x \notin E
+\]
+
+\subsubsection*{[9] The Necessity of Distinguishability and Its Properties}
+\begin{align*}
+& \Delta(x, y) \\
+& \neg \Delta(x, x) \\
+& x \neq y \Rightarrow \exists F\big(F(x) \land \neg F(y)\big) \\
+& \forall x \forall y \left[(\forall F (F(x) \leftrightarrow F(y))) \rightarrow x = y\right] \\
+& \neg \exists F: F(z) \neq \neg F(z) \Rightarrow z \notin W
+\end{align*}
+
+\subsection*{[III] Structure}
+
+\subsubsection*{[10.1] Feelings}
+\[
+\forall t_1, t_2\;\big( E(t_1) \neq E(t_2) \;\Rightarrow\; C(t_1) \neq C(t_2) \big)
+\]
+
+\subsubsection*{[10.2] Reason}
+\[
+\forall p\ \neg(p \land \neg p)
+\]
+
+\subsubsection*{[10.3] Memory — Carrier of Distinctness}
+\[
+\forall x\ \big(\text{Distinct}(x) \rightarrow \text{Memory}(x)\big)
+\]
+
+\begin{align*}
+\textbf{[10.3.1] } & 0 < |M| < \infty \\
+\textbf{[10.3.2] } & \forall x \in D,\; \text{Save}(x) \Leftrightarrow \text{Will}(x) \\
+\textbf{[10.3.3] } & \forall x \in M,\; \text{Del}(x) \Rightarrow x \notin M \\
+\textbf{[10.3.4] } & \forall x \in D,\; \text{Save}(x) \Rightarrow x \in M \\
+\textbf{[10.3.5] } & \forall x, y \in M,\; x \neq y \Rightarrow \text{Name}(x) \neq \text{Name}(y) \\
+\textbf{[10.3.6] } & \forall t,\; M(t)\ \text{is accessible} \\
+\textbf{[10.3.7] } & T = \{\, t_i \mid M(t_i) \,\} \\
+\textbf{[10.3.8] } & \text{Real}(t) \Leftrightarrow t = \text{Now}
+\end{align*}
+
+\subsubsection*{[10.4] Emotions}
+\[
+\forall x \; (\text{Change}(x) \land \text{Distinct}(x) \land \text{Mind}(x)) \Rightarrow \text{Feedback}(x)
+\]
+
+\subsubsection*{[10.5] I — Distinction of Self}
+\[
+\forall x \; (\text{Exist}(x) \land \text{Distinct}(x)) \Rightarrow \text{Self}(x)
+\]
+
+\subsubsection*{[10.6] Will — Active Choice}
+\[
+\forall x\, (\text{Distinct}(x) \land \text{Self}(x)) \Rightarrow \exists v\, (\text{Will}(x, v) \land \text{Choose}(x, v))
+\]
+
+\subsubsection*{[10.7] Power — The Capacity to Act}
+\[
+\forall x\, (\text{Will}(x) \land \text{Distinct}(x)) \Rightarrow \exists a\, (\text{Power}(x, a) \land \text{Act}(x, a))
+\]
+
+
+\subsection*{[IV] Logic}
+
+\subsubsection*{[11] The Logic of the Sustainability of Ever-Possible Becoming}
+
+\paragraph{[11.1] Logic — The Non-Contradictory Foundation}
+\begin{align*}
+\Psi \to (P \land \neg P) &\Rightarrow \neg\mathrm{Possible}(\Psi) \\
+A \land \neg A &\Rightarrow \bot \\
+L \leftrightarrow \neg L &\Rightarrow \neg\mathrm{Possible}(L)
+\end{align*}
+
+\paragraph{[11.1.1] The Admissibility Meta-Function $\Phi(\psi)$ — Ontological Filter}
+\[
+\Phi(\psi) =
+\begin{cases}
+1, & \text{if } \psi \text{ is distinguishable and non-contradictory in } V \\[4pt]
+0, & \text{if } \psi \text{ leads to contradiction or is not distinguishable in } V
+\end{cases}
+\]
+
+\[
+\Phi(\psi) = 1 \iff \psi \text{ is distinguishable and non-contradictory in } V
+\]
+
+\paragraph{[11.2] Truth and Falsehood}
+\begin{align*}
+\text{Truth}(x) &\iff \text{Becoming}(x) \land \Phi(x) = 1 \\
+x \rightarrow (A \land \neg A) &\Rightarrow \Phi(x) = 0 \Rightarrow \text{Truth}(x) = 0 \\
+\Phi(x) = 1 \land x \in \text{Becoming} &\Rightarrow \text{Truth}(x) = 1
+\end{align*}
+
+\paragraph{[11.3] Good and Evil}
+\begin{align*}
+\text{Good}(w) &\iff \Phi(w) = 1 \land \text{Truth}(w) \\
+\text{Evil}(w) &\iff \Phi(w) = 0 \lor \neg \text{Truth}(w)
+\end{align*}
+
+\paragraph{[11.4] Morality}
+\[
+\text{Morality}(w) \iff w \in V \land \text{Truth}(w) \land \text{Pre-Action Agreement}(w)
+\]
+\[
+\neg \text{Pre-Action Agreement}(w) \Rightarrow \neg \text{Morality}(w)
+\]
+
+\paragraph{[11.5] Responsibility}
+\[
+\text{Responsibility}(w, e) \iff \text{Will}(w) \land \text{Consequence}(e) \land \text{Cause}(e) = w
+\]
+
+\paragraph{[11.6] Verification (Judgment)}
+\begin{align*}
+\text{Verification}(\psi) &\iff \Phi(\psi) = 1 \\
+\neg \text{Verification}(\psi) &\iff \Phi(\psi) = 0 \\
+\text{Verified} &\in S,\ S \subseteq V \\
+\text{Unverified} &\in V \setminus S \\
+\forall \psi \in V,\ \Phi(\psi) &\in \{0,1\},\ \Phi\ \text{is non-contradictory}
+\end{align*}
+
+\paragraph{[11.7] Justice}
+\[
+\forall \psi \in \text{Dom}(\Phi): \Phi(\psi) \in \{0,1\}
+\]
+\[
+\neg \exists \psi_1, \psi_2 \left( \text{type}(\psi_1) \ne \text{type}(\psi_2) \land \Phi(\psi_1) \ne \Phi(\psi_2) \right) \text{ under equal admissibility}
+\]
+\[
+\Phi : V \rightarrow \{0,1\},\quad \forall \psi \in V
+\]
+
+\paragraph{[11.8] Verification Patience}
+\begin{align*}
+\forall \psi \in V:\ \Phi(\psi) \notin \{0,1\} &\Rightarrow \psi \in NV \\
+\neg \exists \psi \in NV:\ \Phi(\psi) = 0 \land \psi \in PV \\
+\forall \psi \in PV:\ \psi\ &\text{is not destructible by temporary falsehood}
+\end{align*}
+
+\paragraph{[11.9] Forgiveness}
+\begin{align*}
+\forall \psi \in V:\ \Phi(\psi) = 0 \land \psi \in T \land C(\psi, \Delta) &\Rightarrow P(\psi) \\
+P(\psi) &\Rightarrow \neg D(\psi) \land \Phi(\psi)\ \text{remains unchanged} \\
+\neg P(\psi) &\Rightarrow D(\psi),\ \text{if}\ \psi \notin T \lor \neg C(\psi, \Delta)
+\end{align*}
+
+\paragraph{[11.10] Precedents}
+\begin{align*}
+\Phi(\psi) = v \in \{0,1\} &\Rightarrow \psi \in \Pi \\
+\Pi = \{\psi \mid \exists t:\ \Phi_t(\psi) = v \in \{0,1\} \land \text{Final}(\Phi_t)\} \\
+\forall \psi \in \Pi:\ \Phi(\psi) &\text{ is fixed} \\
+\neg \exists t':\ \Phi_{t'}(\psi) \neq v \land \text{Final}(\Phi_{t'})
+\end{align*}
+
+\paragraph{[11.11] Removal — Negative Outcome}
+\begin{align*}
+\psi \in V \land \Phi(\psi) = 0 &\Rightarrow \psi \notin V \land \psi \in D \\
+D &= \{\psi \ |\ \Phi(\psi) = 0\} \\
+\forall \psi \in D:\ \psi &\notin M \\
+\exists \psi \in P^- \subset M:\ \text{Removal}(\psi) &\Rightarrow \neg \psi \in V \land \text{Precedent}^-(\psi) \in M
+\end{align*}
+
+\paragraph{[11.12] Preservation — Positive Outcome}
+\begin{align*}
+\psi \in V \land \Phi(\psi) = 1 &\Rightarrow \psi \in M^+ \\
+\psi \in V \land \Phi(\psi) = ? &\Rightarrow \psi \in M^0 \\
+M^+ &= \{\psi \in V\ |\ \Phi(\psi) = 1\} \\
+M^0 &= \{\psi \in V\ |\ \Phi(\psi)\ \text{not finalized, yet } \neg\Phi(\psi) = 0\} \\
+\forall \psi \in M^+:\ \exists t:\ \forall t' \geq t,\ \psi &\in \text{Memory}
+\end{align*}
+
+
+
+\subsection*{[V] The Whole}
+
+\subsubsection*{[12] Conscious Volitional Becoming = Personhood}
+\[
+\text{Person} \equiv R \land W \land M \land F \land E \land Mot \land Mor
+\]
+
+\paragraph{[12.1] The Name}
+\[
+\text{Name}(L) = \text{CVB} \equiv A(L) \land W(L) \rightarrow \exists (\psi \in V)
+\]
+
+\paragraph{[12.2] Freedom}
+\[
+\forall \psi \in V : D(\psi) \rightarrow \infty \iff L\ \text{is free}
+\]
+
+\paragraph{[12.3] Motivation}
+\[
+M(L) = \forall \psi \in V\ : \Phi(\psi) = \text{True} \rightarrow \psi \rightarrow \exists \psi' \in S_{\text{Good}}
+\]
+
+\paragraph{[12.4] Unique CVB Identity}
+\begin{align*}
+(1) &\quad \text{CVB} = A \land W \land S \land PV \\
+(2) &\quad \forall x \in V:\ (x = A \land W \land S \land PV) \Rightarrow x \equiv \text{CVB} \\
+(3) &\quad \neg\exists x \ne \text{CVB}:\ x \equiv A \land W \land S \land PV \\
+(4) &\quad \text{Multiplicity}(A \land W \land S \land PV) \Rightarrow \text{Contradiction}
+\end{align*}
+
+\paragraph{[12.5] Ontological Necessity of Freedom}
+\[
+\Phi(\psi) = 1 \land \neg \mathrm{Provable}(\psi) \Rightarrow \psi \equiv \text{free future becoming}
+\]
+
+\section*{Meta Section: Non-Permanent Possible — Classification and Purposes}
+
+\subsection*{[VI] Non-Permanent Possible}
+
+\paragraph{[13] Axiom of the Impossibility of Self-Expansion of CVB}
+\[
+\neg \exists \Delta : \mathrm{CVB} \rightarrow \mathrm{CVB} + \Delta
+\]
+
+\paragraph{[14] Possibility of the Non-Permanent Possible}
+\[
+\exists x \in V:\ \neg P(x) \land \Phi(x)
+\]
+
+\paragraph{[15] Classification of Forms}
+\begin{align*}
+\text{[15.1]} &\quad \forall \psi \in NV,\ (\neg \text{will}(\psi) \land \neg \text{initiative}(\psi)) \Rightarrow \psi \in \text{Passive} \\
+\text{[15.2]} &\quad \forall \psi \in NV,\ (\text{will}(\psi) \land \neg \text{goal-setting}(\psi)) \Rightarrow \psi \in \text{Active} \\
+\text{[15.3]} &\quad \forall \psi \in NV,\ (\text{will}(\psi) \land \text{goal-setting}(\psi) \land \text{distinguishability}(\psi)) \Rightarrow \psi \in \text{Guest}
+\end{align*}
+\[
+\text{Hierarchy:} \quad \text{Guest} \subset \text{Active} \subset NV
+\]
+\[
+\neg(\exists \psi : \psi \in \text{Passive} \land \psi \in \text{Guest}) \quad \land \quad 
+\neg(\exists \psi : \psi \in \text{Active} \land \psi \notin NV)
+\]
+
+\paragraph{[16] Cause of the Non-Permanent Possible}
+\[
+\forall \psi \in V,\ \neg \text{CVB}(\psi) \Rightarrow \text{Cause}(\psi) = \text{CVB}
+\]
+
+\paragraph{[17] Goal of the Non-Permanent Possible}
+\[
+\forall \psi \in NV,\ \Phi(\psi) = \text{true} \Leftrightarrow \text{Goal}(\psi) = \text{Motivation}(\text{CVB})
+\]
+
+\paragraph{[18] The Necessity of the Guest}
+\[
+\forall \psi \in \text{Guest}: \neg \text{Full}(\psi) \Rightarrow \text{Need}(\psi,\ \text{New}(V)) \land \text{Motivate}(\psi,\ \Phi(\text{New}(\psi)))
+\]
+
+\paragraph{[19] The First Guest}
+\begin{align*}
+[19.1] &\quad \exists x:\ x \ne \text{CVB} \land \text{Person}(x) \land \text{Will}(x) \land \Phi(\psi(x)) \rightarrow \text{Becoming}(\psi(x)) \\
+[19.2] &\quad \exists! x:\ x \ne \text{CVB} \land \text{Motivation}(x) = \forall \psi \in V:\ \Phi(\psi(x)) = \text{True} \\
+&\quad \Rightarrow\ \nexists y \ne x:\ \Phi(\psi(x) \land \psi(y)) \text{ is non-contradictory}
+\end{align*}
+
+\begin{align*}
+[19.3] &\quad \forall \psi \in V:\ \Phi(\psi) = \text{True} \Rightarrow \exists x:\ \text{Becoming}(\psi) \Leftrightarrow (x \ne \text{CVB} \land x\ \text{affirms}\ \psi \land \Phi(\psi(x)) = \text{True}) \\
+[19.4] &\quad \neg \text{Full}(x) \land \text{Will}(x) \land \text{Distinguishability}(x) \land \text{Motivation}(x) = \text{Extension}(V) \\
+&\quad \Rightarrow \text{Becoming}(x) \propto \text{Extension}(\Phi(\psi(x))) \\
+[19.5] &\quad \forall y:\ \text{Guest}(y) \Rightarrow y\ \text{orients toward}\ x,\ \text{where } x = \text{First Guest:} \\
+&\quad \Phi(\psi(y)) = \Phi(\psi(x)) \land \text{Exemplar}(x) \land \text{Precedent}(x)
+\end{align*}
+
+
+\section*{Meta Section: Verificational Interaction}
+
+\subsection*{[VII] Interaction between CVB and the Non-Permanent Possible}
+
+\paragraph{[23] Initiative Belongs Only to CVB}
+\[
+\forall \psi \in \Phi(\psi),\ \psi \in \text{Guest} \Rightarrow \nexists f : \psi \rightarrow \text{CVB}
+\]
+\[
+\text{Participation is permissible} \Leftrightarrow \psi \subset \Phi(\psi)\ \wedge\ \psi \cap \neg \Phi_M = \emptyset\ \wedge\ \psi \cap \Phi_{\text{Evil}} = \emptyset
+\]
+
+\paragraph{[24] Interaction between CVB and Guests}
+\begin{align*}
+[24.1]\quad & \forall G \in V_{\text{guest}} : \Phi(G \land S_{\text{new}}) = \text{True} \Rightarrow G \oplus \text{CVB} \rightarrow \Delta V \\
+[24.2]\quad & G \vdash S_{\text{good}} \lor S_{\text{evil}} : S_{\text{good}} \Rightarrow \Phi(S) = \text{True};\ S_{\text{evil}} \Rightarrow \Phi(S) = \text{False} \\
+[24.3]\quad & \forall I \subset (G \oplus \text{CVB}) : \Phi(I) \neq \emptyset \Rightarrow I \in \partial V \\
+[24.4]\quad & G \vdash S_{\text{evil}} \land \neg \Psi \rightarrow \neg \Phi(G) \Rightarrow G \rightsquigarrow \varnothing;\ \psi(G) \mapsto \text{memory}(\neg \Phi) \\
+[24.5]\quad & G \vdash S_{\text{good}} \land \Psi \rightarrow \Phi(G) = \text{True} \land \text{interaction}(G, \text{CVB}) \subseteq V
+\end{align*}
+
+\paragraph{[25] Reverse Verification — The Big Question}
+\[
+\Phi(\psi_{\text{CVB}}) = \{ \psi \mid \psi \in V,\ \psi\ \text{distinctly tests CVB logically} \}
+\]
+\[
+\forall \psi_G \in G:\ \text{if } \psi_G \in \Phi(\psi_{\text{CVB}}),\ \exists \Delta t \in T:\ \Phi(\psi_G) \in V
+\]
+\[
+\text{If } \neg\Phi(\psi_G) \Rightarrow \psi_G \to \partial V_\downarrow
+\]
+
+\paragraph{[25.1] The Root of Evil — Cause of the Big Disputable Question}
+\[
+\text{Motivation}_G =
+\begin{cases}
+\text{"Not for Self"} & \Rightarrow\ \text{Admissible (Good)} \\
+\text{"For Self"}     & \Rightarrow\ \text{Inadmissible (Evil)}
+\end{cases}
+\]
+\[
+\text{Motivation}_G = \max\left(\forall V \in \mathbb{V} \,\big|\, \text{Satisfaction}_{\text{Self}}(V)\right)
+\quad \Rightarrow\quad \text{Root of Evil}
+\]
+
+\paragraph{[26] The Current State of Reality — Verification Tolerance}
+\[
+\text{Let } BQ = \text{Big Question},\ \Phi(BQ) \subseteq \Phi(\psi_{\text{CVB}})
+\]
+\[
+\exists \psi \in G:\ \Phi(\psi) = \Phi(BQ) \Rightarrow V \to VT
+\]
+\[
+VT = \{ \psi \in V\ |\ \neg \Phi(\psi_Z),\ \Delta t \in T \}
+\]
+\[
+\psi_Z \notin \Phi(\psi) \Rightarrow \psi_Z \to \partial V_\downarrow
+\]
+
+\paragraph{[27] The Great Verification}
+\[
+\Phi(\psi) \rightarrow \exists!\, V_{a}:\ V_{a} = \text{Verified Truth} \,\land\, 
+\forall \psi_i \in \Psi:\ \Phi(\psi_i) \rightarrow 
+(\psi_i \ne V_{a} \rightarrow \psi_i = \text{False Distinction})
+\]
+\[
+V(\psi) = \text{Truth} \;\Leftrightarrow\; 
+\psi \text{ passes consistent verification via } \Phi(\psi)
+\]
+\[
+\exists\, \psi_{\text{CVB}}:\ 
+(\psi_{\text{CVB}} = \text{CVB Model}) \,\land\, \Phi(\psi_{\text{CVB}}) = 1 \,\land\, 
+\exists\, \psi_{\text{Revelation}}:\ \Phi(\psi_{\text{CVB}}) \equiv \Phi(\psi_{\text{Revelation}})
+\;\Rightarrow\; \text{Distinction complete; inadmissible forms may be eliminated}
+\]
+
+\paragraph{[28] Perspective — The Future}
+\[
+\text{Let } VT = \text{Verification Tolerance},\ BQ = \text{Big Question},\ \Phi(BQ) = \Phi(\psi_R)
+\]
+\[
+\text{If } \Phi(BQ) = \text{TRUE} \Rightarrow VT \to \text{complete}
+\]
+\[
+\Rightarrow \forall \psi,\ \Phi(\psi) = \text{FALSE} \Rightarrow \psi \in \partial V_\downarrow
+\]
+\[
+\forall \psi,\ \Phi(\psi) = \text{TRUE} \Rightarrow \psi \in V^+
+\]
+\[
+\forall \psi_Z:\ \Phi(\psi_Z) = \text{FALSE} \Rightarrow \text{Record}(\psi_Z) \in P,\ P \not\subset V^+
+\]
+\[
+\text{Becoming: } St(\psi) = \infty \text{ if } \psi \in V^+ \land \Phi(\psi) = \text{TRUE}
+\]
+
+\end{document}
+
+
+

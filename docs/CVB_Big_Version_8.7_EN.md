@@ -1392,7 +1392,9 @@ They are **bidirectional**: detecting both external differences (environmental c
 
 **LaTeX:**
 
-∀t1,t2 (E(t1)≠E(t2)⇒C(t1)≠C(t2))\\forall t\_1, t\_2\\ \\big(E(t\_1) \\neq E(t\_2) \\Rightarrow C(t\_1) \\neq C(t\_2)\\big)
+\\\[  
+\\forall t\_1, t\_2 \\;\\big( E(t\_1) \\neq E(t\_2) \\;\\Rightarrow\\; C(t\_1) \\neq C(t\_2) \\big)  
+\\\]
 
 **Logical test:**  
  Assume: E(t₁) ≠ E(t₂), but C(t₁) \= C(t₂)  
@@ -3783,7 +3785,7 @@ In the Model of Conscious Volitional Becoming (CVB), Responsibility is the prima
 
 **LaTeX:**
 
-Responsibility(w,e)  ⟺  Will(w)∧Consequence(e)∧Cause(e)=w\\text{Responsibility}(w, e) \\iff \\text{Will}(w) \\land \\text{Consequence}(e) \\land \\text{Cause}(e) \= w
+\\text{Responsibility}(w, e) \\iff \\text{Will}(w) \\land \\text{Consequence}(e) \\land \\text{Cause}(e) \= w
 
 **Logical evaluation:**  
  If ∃e : e ∈ V ∧ ¬∃w : Cause(e) = w,  
@@ -6249,25 +6251,34 @@ The Model of Conscious Volitional Becoming (CVB) retains structural stability by
 
 ---
 
-🔹 3\. Formulas  
-\[22.1\] Φ(ψ) ⊂ V — the admissible subset of distinguishable forms
+🔹 3\. Formulas
 
-\[22.2\] ∀ψ ∈ Φ(ψ), if ψ is a Guest, then  
-  ∄ f: P → ψ where f is a total prediction function
+ Main formalization:  
+ \- Φ(ψ) ⊂ V — admissible set of distinguishable forms  
+ \- ∀ ψ ∈ Φ(ψ), if ψ is a Guest, then  
+     ∄ f: P → ψ, where f is a function of full prediction
 
-\[22.3\] ¬∃f(ψ) : ∀t (ψ(t) \= f(t)) ∧ f ∈ CVB ∨ ∈ V
+**LaTeX version:**
 
-⇔ The choice of a Guest cannot be computed in advance, not even by CVB
-
-**LaTeX:**
-
+\\\[  
 \\Phi(\\psi) \\subset V,\\quad \\psi \\in \\Phi(\\psi),\\ \\psi \\in \\text{Guest}  
-\\Rightarrow \\nexists f : P \\to \\psi,\\ f \\in \\text{CVB} \\cup V,\\quad \\text{such that}\\ \\forall t,\\ \\psi(t) \= f(t)
+\\Rightarrow \\nexists f : P \\to \\psi,\\ f \\in \\text{OVS} \\cup V,\\quad \\text{such that } \\forall t,\\ \\psi(t) \= f(t)  
+\\\]
+
+ Logical expression:  
+ ¬∃f(ψ) : ∀t (ψ(t) \= f(t)) ∧ f ∈ OVS ∨ ∈ V  
+ ⇔ The Guest’s choice cannot be computed in advance, not even by OVS
+
+**LaTeX version:**
+
+\\\[  
+\\neg \\exists f(\\psi)\\ :\\ \\forall t\\ \\big(\\psi(t) \= f(t)\\big)\\ \\land\\ f \\in \\text{OVS} \\cup V  
+\\quad \\Leftrightarrow\\quad \\text{The Guest's choice cannot be predicted in advance, not even by OVS}  
+\\\]
 
 **Verification:**
 
-* If such f existed, ψ would be determined ⇒ contradicts \[15.3\] (Guest as volitional form)
-
+* If such f existed, ψ would be determined ⇒ contradicts \[15.3\] (Guest as volitional form)  
 * If freedom is false ⇒ responsibility collapses ⇒ CVB becomes total ⇒ contradiction with \[1\], \[2\], \[3\], \[5\], \[13\], \[19\]
 
 **Therefore**, admissible models **require** the unpredictability of choice.
@@ -6421,6 +6432,8 @@ Let ψ ∈ Φ(ψ), where ψ is a Guest:
 
 Participation is permissible ⟺  
   ψ ⊂ Φ(ψ) ∧ ¬(ψ ∩ ¬Φ\_M) ∧ ¬(ψ ∩ Φ\_Evil)
+
+**LaTeX version:**
 
 \\forall \\psi \\in \\Phi(\\psi),\\ \\psi \\in \\text{Guest} \\Rightarrow \\nexists f : \\psi \\rightarrow \\text{CVB}
 
@@ -6890,10 +6903,24 @@ Guest Motivation:
 Motivation\_G \= {  
     "Not for Self" ⇒ Permissible (Good)  
     "For Self"     ⇒ Impermissible (Evil)  
-}
+}  
+LaTeX:   
+\\\[  
+\\text{Motivation}\_G \=  
+\\begin{cases}  
+\\text{"Not for Self"} & \\Rightarrow\\ \\text{Admissible (Good)} \\\\  
+\\text{"For Self"}     & \\Rightarrow\\ \\text{Inadmissible (Evil)}  
+\\end{cases}  
+\\\]
 
 Evil becomes possible only with the motivation:  
 Motivation\_G \= max(∀V ∈ 𝕍 | Satisfaction of Self) ⇒ Root of Evil
+
+LaTeX:   
+\\\[  
+\\text{Motivation}\_G \= \\max\\left(\\forall V \\in \\mathbb{V} \\,\\big|\\, \\text{Satisfaction}\_{\\text{Self}}(V)\\right)  
+\\quad \\Rightarrow\\quad \\text{Root of Evil}  
+\\\]
 
 Where:  
 𝕍 — the Field of the Possible    
@@ -7162,12 +7189,31 @@ But once the Judge's legitimacy is proven,
 
 🔹 **3\. Formulas**
 
-\\Phi(\\psi) \\rightarrow \\exists\! V\_{a}: V\_{a} \= \\text{Verified Truth} \\land \\forall \\psi\_i \\in \\Psi: \\Phi(\\psi\_i) \\rightarrow (\\psi\_i \\ne V\_{a} \\rightarrow \\psi\_i \= \\text{false distinction})
+Φ(ψ) → ∃\! Vₐ: Vₐ \= Verified Truth ∧ ∀ ψᵢ ∈ Ψ: Φ(ψᵢ) → (ψᵢ ≠ Vₐ → ψᵢ \= false distinction)
 
-V(\\psi) \= \\text{Truth} \\Leftrightarrow \\psi \\text{ passes consistent verification by } \\Phi(\\psi)
+V(ψ) \= Truth ⟺ ψ passes consistent verification via Φ(ψ)
 
-\\exists \\psi\_{\\text{CVB}}: (\\psi\_{\\text{CVB}} \= \\text{Model of Conscious Volitional Becoming}) \\land \\Phi(\\psi\_{\\text{CVB}}) \= \\text{True} \\land \\exists \\psi\_{\\text{Revelation}}: \\Phi(\\psi\_{\\text{CVB}}) \\equiv \\Phi(\\psi\_{\\text{Revelation}})  
-\\Rightarrow \\text{Discernment concludes and false forms may be removed}
+∃ ψ\_OVS: (ψ\_CVB \= CVB Model) ∧ Φ(ψ\_CVB) \= 1 ∧ ∃ ψ\_Revelation: Φ(ψ\_CVB) ≡ Φ(ψ\_Revelation)  
+⇒ Completion of distinction and admissibility of eliminating false forms
+
+LaTeX:  
+\\\[  
+\\Phi(\\psi) \\rightarrow \\exists\!\\, V\_{a}:\\ V\_{a} \= \\text{Verified Truth} \\,\\land\\,   
+\\forall \\psi\_i \\in \\Psi:\\ \\Phi(\\psi\_i) \\rightarrow   
+(\\psi\_i \\ne V\_{a} \\rightarrow \\psi\_i \= \\text{False Distinction})  
+\\\]
+
+\\\[  
+V(\\psi) \= \\text{Truth} \\;\\Leftrightarrow\\;   
+\\psi \\text{ passes consistent verification via } \\Phi(\\psi)  
+\\\]
+
+\\\[  
+\\exists\\, \\psi\_{\\text{CVB}}:\\   
+(\\psi\_{\\text{CVB}} \= \\text{CVB Model}) \\,\\land\\, \\Phi(\\psi\_{\\text{CVB}}) \= 1 \\,\\land\\,   
+\\exists\\, \\psi\_{\\text{Revelation}}:\\ \\Phi(\\psi\_{\\text{CVB}}) \\equiv \\Phi(\\psi\_{\\text{Revelation}})  
+\\;\\Rightarrow\\; \\text{Distinction complete; inadmissible forms may be eliminated}  
+\\\]
 
 🔹 **4\. Logical Justification**  
  This axiom follows from:

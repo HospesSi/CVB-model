@@ -5665,13 +5665,21 @@ LaTeX:
  \- ∀ ψ ∈ Φ(ψ), если ψ — Гость, то  
      ∄ f: P → ψ, где f — функция полного предсказания
 
+LaTeX:  
+\\\[  
+\\Phi(\\psi) \\subset V,\\quad \\psi \\in \\Phi(\\psi),\\ \\psi \\in \\text{Guest}  
+\\Rightarrow \\nexists f : P \\to \\psi,\\ f \\in \\text{OVS} \\cup V,\\quad \\text{such that } \\forall t,\\ \\psi(t) \= f(t)  
+\\\]
+
 **Выражение в логике:**  
  ¬∃f(ψ) : ∀t (ψ(t) \= f(t)) ∧ f ∈ OVS ∨ ∈ V  
  ⇔ Выбор Гостя не может быть вычислен заранее, даже ОВС
 
 LaTeX:  
-\\Phi(\\psi) \\subset V,\\quad \\psi \\in \\Phi(\\psi),\\ \\psi \\in \\text{Гость}  
-\\Rightarrow \\nexists f : P \\to \\psi,\\ f \\in \\text{OVS} \\cup V,\\quad \\text{такое, что}\\ \\forall t,\\ \\psi(t) \= f(t)
+\\\[  
+\\neg \\exists f(\\psi)\\ :\\ \\forall t\\ \\big(\\psi(t) \= f(t)\\big)\\ \\land\\ f \\in \\text{OVS} \\cup V  
+\\quad \\Leftrightarrow\\quad \\text{The Guest's choice cannot be predicted in advance, not even by OVS}  
+\\\]
 
 **Проверка согласованности:**
 
@@ -6205,8 +6213,23 @@ Motivation\_G \= {
     "Для Себя"    ⇒ Недопустимо (Зло)  
 }
 
+LaTeX:  
+\\\[  
+\\text{Motivation}\_G \=  
+\\begin{cases}  
+\\text{"Not for Self"} & \\Rightarrow\\ \\text{Admissible (Good)} \\\\  
+\\text{"For Self"}     & \\Rightarrow\\ \\text{Inadmissible (Evil)}  
+\\end{cases}  
+\\\]
+
 Выбор Зла возможен только при мотивации:  
 Motivation\_G \= max(∀V ∈ 𝕍 | удовлетворение Я) ⇒ Корень Зла
+
+LaTeX:  
+\\\[  
+\\text{Motivation}\_G \= \\max\\left(\\forall V \\in \\mathbb{V} \\,\\big|\\, \\text{Satisfaction}\_{\\text{Self}}(V)\\right)  
+\\quad \\Rightarrow\\quad \\text{Root of Evil}  
+\\\]
 
 Где:  
 𝕍 — Поле Возможного  
@@ -6514,17 +6537,33 @@ VT \= \\{ \\psi \\in V\\ |\\ \\neg \\Phi(\\psi\_Z),\\ \\Delta t \\in T \\} \\\\
 
 🔹 **3\. Формулы**
 
-Φ(ψ) → ∃\! Vₐ: Vₐ \= Верифицированная Истина ∧ ∀ ψ\_i ∈ Ψ: Φ(ψ\_i) → (ψ\_i ≠ Vₐ → ψ\_i \= ложное различие)  
-V(ψ) \= Истина ⟺ ψ проходит непротиворечивую верификацию по Φ(ψ)  
-∃ψ\_OVS: (ψ\_OVS \= модель ОВС) ∧ Φ(ψ\_OVS) \= истинно ∧ ∃ψ\_Откровение: Φ(ψ\_OVS) ≡ Φ(ψ\_Откровение)  
-⇒ Завершение различения и допустимость Удаления ложных форм.  
+Символьная запись:
+
+Φ(ψ) → ∃\! Vₐ: Vₐ \= Верифицированная Истина ∧ ∀ ψᵢ ∈ Ψ: Φ(ψᵢ) → (ψᵢ ≠ Vₐ → ψᵢ \= ложное различие)
+
+V(ψ) \= Истина ⟺ ψ проходит непротиворечивую верификацию по Φ(ψ)
+
+∃ ψ\_OVS: (ψ\_OVS \= модель ОВС) ∧ Φ(ψ\_OVS) \= 1 ∧ ∃ ψ\_Откровение: Φ(ψ\_OVS) ≡ Φ(ψ\_Откровение)  
+⇒ Завершение различения и допустимость удаления ложных форм
+
 LaTeX:  
-\\Phi(\\psi) \\rightarrow \\exists\! V\_{a}: V\_{a} \= \\text{Верифицированная Истина} \\land \\forall \\psi\_i \\in \\Psi: \\Phi(\\psi\_i) \\rightarrow (\\psi\_i \\ne V\_{a} \\rightarrow \\psi\_i \= \\text{ложное различие})
+\\\[  
+\\Phi(\\psi) \\rightarrow \\exists\!\\, V\_{a}:\\ V\_{a} \= \\text{Verified Truth} \\,\\land\\,   
+\\forall \\psi\_i \\in \\Psi:\\ \\Phi(\\psi\_i) \\rightarrow   
+(\\psi\_i \\ne V\_{a} \\rightarrow \\psi\_i \= \\text{False Distinction})  
+\\\]
 
-V(\\psi) \= \\text{Истина} \\Leftrightarrow \\psi \\text{ проходит непротиворечивую верификацию по } \\Phi(\\psi)
+\\\[  
+V(\\psi) \= \\text{Truth} \\;\\Leftrightarrow\\;   
+\\psi \\text{ passes consistent verification via } \\Phi(\\psi)  
+\\\]
 
-\\exists \\psi\_{\\text{OVS}}: (\\psi\_{\\text{OVS}} \= \\text{модель ОВС}) \\land \\Phi(\\psi\_{\\text{OVS}}) \= \\text{истинно} \\land \\exists \\psi\_{\\text{Откровение}}: \\Phi(\\psi\_{\\text{OVS}}) \\equiv \\Phi(\\psi\_{\\text{Откровение}})  
-\\Rightarrow \\text{Завершение различения и допустимость Удаления ложных форм}
+\\\[  
+\\exists\\, \\psi\_{\\text{OVS}}:\\   
+(\\psi\_{\\text{OVS}} \= \\text{CVB Model}) \\,\\land\\, \\Phi(\\psi\_{\\text{OVS}}) \= 1 \\,\\land\\,   
+\\exists\\, \\psi\_{\\text{Revelation}}:\\ \\Phi(\\psi\_{\\text{OVS}}) \\equiv \\Phi(\\psi\_{\\text{Revelation}})  
+\\;\\Rightarrow\\; \\text{Distinction complete; inadmissible forms may be eliminated}  
+\\\]
 
 ---
 
