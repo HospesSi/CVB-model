@@ -14,7 +14,7 @@ by speculation, but by formal, paradox-resistant logic.**
       “I believe”, but: “I know.”
 
 ### English (EN)
-- 📘 **Big Version**: [DOCX](./docs/CVB_Big_Version_8.7_EN.docx) · [EPUB](./docs/CVB_Big_Version_8.7_EN.epub) · [MD](./docs/CVB_Big_Version_8.7_EN.md) · [PDF](./docs/CVB_Big_Version_8.7_EN.pdf)
+- 📘 **Big Version**: [TEX](./docs/CVB_Big_Version_8.7_EN.tex) · [DOCX](./docs/CVB_Big_Version_8.7_EN.docx) · [EPUB](./docs/CVB_Big_Version_8.7_EN.epub) · [MD](./docs/CVB_Big_Version_8.7_EN.md) · [PDF](./docs/CVB_Big_Version_8.7_EN.pdf)
 - 📑 **Journal Version**: [DOCX](./docs/CVB_Journal_Version_8.7_EN.docx) · [EPUB](./docs/CVB_Journal_Version_8.7_EN.epub) · [MD](./docs/CVB_Journal_Version_8.7_EN.md) · [PDF](./docs/CVB_Journal_Version_8.7_EN.pdf)
 - 📣 **Big Public Version**: [DOCX](./docs/CVB_Big_Public_Version_8.7_EN.docx) · [EPUB](./docs/CVB_Big_Public_Version_8.7_EN.epub) · [MD](./docs/CVB_Big_Public_Version_8.7_EN.md) · [PDF](./docs/CVB_Big_Public_Version_8.7_EN.pdf) 
 - 📣 **Short Public Version**: [DOCX](./docs/CVB_Short_Public_Version_8.7_EN.docx) · [EPUB](./docs/CVB_Short_Public_Version_8.7_EN.epub) · [MD](./docs/CVB_Short_Public_Version_8.7_EN.md) · [PDF](./docs/CVB_Short_Public_Version_8.7_EN.pdf)
