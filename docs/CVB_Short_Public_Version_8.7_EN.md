@@ -75,9 +75,8 @@ This is the first publication of its kind.
  **© 2025 Hospes Si. All rights reserved.**  
  **This work may be freely distributed for non-commercial purposes with proper attribution.**
 
-**License: Creative Commons BY-NC-ND 4.0**  
- **This work is licensed under a Creative Commons**  
- **Attribution–NonCommercial–NoDerivatives 4.0 International License.**
+**License: CC BY 4.0 (Creative Commons Attribution)**  
+**https://creativecommons.org/licenses/by/4.0/**
 
 **Author: Hospes Si (Latin: "Guest, if")**
 

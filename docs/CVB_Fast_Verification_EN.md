@@ -1404,3 +1404,8 @@ We will also present the results in the form of **common paradoxes** found in mo
 ✅ **5\. No Self-Exclusion**  
  The system does not contradict itself, does not make logically impossible claims, and does not destroy its own foundation.
 
+License: CC BY 4.0 (Creative Commons Attribution)  
+[https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+
+Author: Hospes Si (Latin: “Guest, if”)  
+All project documents: [github.com/HospesSi/CVB-model](http://github.com/HospesSi/CVB-model) 

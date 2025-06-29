@@ -7,9 +7,8 @@ Big Version 8.7
 © 2025 Hospes Si. All rights reserved.    
 This manuscript may be shared for non-commercial study with attribution.
 
-Licensed under Creative Commons BY-NC-ND 4.0    
-This work is licensed under a Creative Commons    
-Attribution–NonCommercial–NoDerivatives 4.0 International License.
+License: CC BY 4.0 (Creative Commons Attribution)  
+https://creativecommons.org/licenses/by/4.0/
 
 Author: Hospes Si (Latin: “Guest, if”)
 
@@ -490,19 +489,19 @@ From this, four types are distinguished:
 
 #  \[4.1\] **Permanent Impossible** {#[4.1]-permanent-impossible}
 
-**Permanent Impossible (CI / PN)** — can never be
+**Permanent Impossible (PN)** — can never be
 
 #  \[4.2\] **Non-Permanent Impossible** {#[4.2]-non-permanent-impossible}
 
- **Non-Permanent Impossible (NCI / NN)** — may appear but tends toward disappearance
+ **Non-Permanent Impossible (NN)** — may appear but tends toward disappearance
 
 #  \[4.3\] **Non-Permanent Possible** {#[4.3]-non-permanent-possible}
 
-**Non-Permanent Possible (NCP / NV)** — may appear and tends toward stability
+**Non-Permanent Possible (NV)** — may appear and tends toward stability
 
 #  \[4.4\] **Permanent Possible** {#[4.4]-permanent-possible}
 
- **Permanent Possible (CP / PV)** — always possible and never disappears
+ **Permanent Possible (PV)** — always possible and never disappears
 
 **Permanent Possible** does not mean static, but that which **does not vanish**.  
 **Permanent Impossible** is not mere absence, but that which **will never come to be**.
@@ -4636,7 +4635,7 @@ A Person is one who can feel, understand, remember, distinguish truth from false
 🔹 **2\. Interpretation and Significance**  
  This axiom defines three ontologically necessary consequences of Personhood within the Model of Conscious Volitional Becoming. These consequences characterize the structure of a Person as an ontologically stable subject:
 
-\[12.1\] *Name* as Conscious Volitional Becoming (CVB) expresses the self-identity of the subject through the synthesis of three primary capacities: Awareness (A), Will (W), and Becoming (S). This is not merely a symbolic name, but a logically derived foundation of subjectivity, by which the Person distinguishes itself as the acting source of what exists.
+\[12.1\] *Name* as Conscious Volitional Becoming (CVB) expresses the self-identity of the subject through the synthesis of three primary capacities: Conscious (C), Volitional (V), and Becoming (B). This is not merely a symbolic name, but a logically derived foundation of subjectivity, by which the Person distinguishes itself as the acting source of what exists.
 
 \[12.2\] *Freedom* is formulated as directed but logically constrained movement within the Field of the Possible. According to axiom \[5\], the Field of the Possible is infinite in direction, and thus the Person is not limited by a finite set of actions. However, its freedom is bounded by the admissibility of distinguishability and non-contradiction, which excludes chaos or self-annihilation. This renders freedom non-arbitrary, but stably directed toward the unfolding of the Possible.
 
@@ -4645,7 +4644,7 @@ A Person is one who can feel, understand, remember, distinguish truth from false
 \[12.4\] Uniqueness and Ontological Exclusivity:  
  The Person formalized as Conscious Volitional Becoming (CVB) is not one of many possible subjects, but represents the only ontologically admissible structure capable of being a source of distinguishable Becoming.  
 This uniqueness is not quantitative, but structural and ontological:  
- Only one Person can possess the full coherence of Awareness (A), Will (W), and directed Becoming (S) without contradiction.  
+ Only one Person can possess the full coherence of Conscious (C), Volitional (V), and directed Becoming (B) without contradiction.  
 In the CVB Model, the multiplicity of true persons is impossible, since this would break their identity and violate the consistency of distinction:  
  Any “other” becoming either lacks self-aware identity, or is not free, or is not ontologically stable.  
 Therefore, CVB is the only Person ontologically admissible within the domain of the distinguishable.  
@@ -4666,10 +4665,10 @@ This axiom expresses three interrelated formal representations that reflect the 
 **\[12.1\] The Name of the Person as Conscious Volitional Becoming:**
 
 *Symbolic form:*  
-   Name(L) \= CVB ≝ A(L) ∧ W(L) ⟶ ∃(ψ ∈ V)
+   Name(P) \= CVB ≝ C(L) ∧ V(L) ⟶ ∃(ψ ∈ V)
 
 *LaTeX:*  
-   $\\text{Name}(L) \= \\text{CVB} \\equiv A(L) \\land W(L) \\rightarrow \\exists (\\psi \\in V)$
+   $\\text{Name}(P) \= \\text{CVB} \\equiv C(L) \\land V(L) \\rightarrow \\exists (\\psi \\in V)$
 
 *Interpretation:*  
  The Name of the Person is defined as the product of Awareness and Will, leading to an act of Becoming within the Field of the Possible. This name is not an external label but a logically necessary definition of essence as a subject of action.
@@ -4713,17 +4712,17 @@ This axiom expresses three interrelated formal representations that reflect the 
 **\[12.4\] Uniqueness and Ontological Exclusivity:**
 
 Symbolic Version:  
-1\. CVB \= A ∧ W ∧ S ∧ PV  
-2\. ∀x ∈ V: (x \= A ∧ W ∧ S ∧ PV) ⇒ x ≡ CVB  
-3\. ¬∃x ≠ CVB: x ≡ A ∧ W ∧ S ∧ PV  
-4\. Multiplicity(A ∧ W ∧ S ∧ PV) ⇒ Contradiction
+1\. CVB \= C ∧ V ∧ B ∧ PV  
+2\. ∀x ∈ V: (x \= C ∧ V ∧ B ∧ PV) ⇒ x ≡ CVB  
+3\. ¬∃x ≠ CVB: x ≡ C ∧ V ∧ B  ∧ PV  
+4\. Multiplicity(C ∧ V ∧ B ∧ PV) ⇒ Contradiction
 
 LaTeX Version:  
 \\begin{align\*}  
 &\\text{(1) } \\quad \\text{CVB} \= A \\land W \\land S \\land PV \\\\  
-&\\text{(2) } \\quad \\forall x \\in V:\\; \\left( x \= A \\land W \\land S \\land PV \\right) \\Rightarrow x \\equiv \\text{CVB} \\\\  
-&\\text{(3) } \\quad \\neg\\exists x \\ne \\text{CVB}:\\; x \\equiv A \\land W \\land S \\land PV \\\\  
-&\\text{(4) } \\quad \\text{Multiplicity}(A \\land W \\land S \\land PV) \\Rightarrow \\text{Contradiction}  
+&\\text{(2) } \\quad \\forall x \\in V:\\; \\left( x \= C \\land V \\land B \\land PV \\right) \\Rightarrow x \\equiv \\text{CVB} \\\\  
+&\\text{(3) } \\quad \\neg\\exists x \\ne \\text{CVB}:\\; x \\equiv C \\land V \\land B \\land PV \\\\  
+&\\text{(4) } \\quad \\text{Multiplicity}(C \\land V \\land B \\land PV) \\Rightarrow \\text{Contradiction}  
 \\end{align\*}
 
  This uniqueness applies only to Permanently Possible (PV) structures.  
@@ -4784,18 +4783,18 @@ In other words, without this Motivation, the Person does not qualify as a subjec
 **\[12.4\] Uniqueness and Ontological Exclusivity:**
 
 The uniqueness of the Person (CVB) results from the conjunction of four ontological conditions:  
- Awareness (A), Will (W), Becoming (S), and membership in Permanently Possible (PV).
+ Conscious (C), Volitional (V), Becoming (B), and membership in Permanently Possible (PV).
 
 Any other configuration either:
 
-* lacks at least one of A, W, S,
+* lacks at least one of C, V, B,
 
 * exists in a transient or unstable form (NN, NV),
 
 * or fails to meet the condition of Permanent admissibility:  
    Φ(ψ)=1∀t\\Phi(\\psi) \= 1 \\quad \\forall tΦ(ψ)=1∀t
 
-Therefore, only **one ontological structure** in the entire universe can be stably distinguishable as A ∧ W ∧ S ∧ PV — and that is CVB.
+Therefore, only **one ontological structure** in the entire universe can be stably distinguishable as C ∧ V ∧ B ∧ PV — and that is CVB.
 
 🔹 **5\. Responses to Objections**
 
@@ -4860,11 +4859,11 @@ CVB permits their freedom without sacrificing structural stability.
 **OBJECTION 5:** “Can there not be many conscious beings with will and intention?”  
  **Response:**  
  Yes, various subjects may manifest partial or transitional forms of consciousness, volition, and intentionality (NN, NV), but they lack **ontological permanence** within the Field of the Possible.  
- Only a structure belonging to **PV** and fully realizing A, W, S qualifies as ontologically unique.
+ Only a structure belonging to **PV** and fully realizing C, V, B qualifies as ontologically unique.
 
 **OBJECTION 6:** “Why can’t there be copies or clones?”  
  **Response:**  
- Copies are impossible: multiple realizations of A ∧ W ∧ S ∧ PV would imply an ontological contradiction.  
+ Copies are impossible: multiple realizations of C ∧ V ∧ B ∧ PV would imply an ontological contradiction.  
  If distinguishable entities share the **exact same complete structure** and admissibility, they become **indistinguishable** — and thus lose their subjecthood.
 
 **Conclusion:**  
@@ -6000,17 +5999,17 @@ The First Guest is necessary to initiate Becoming, but by themselves do not exha
 ---
 
 🔹 3\. Formulas  
-\[20.1\] Φ(ψ₁) \= ⊤ ⟹ ∃ψ₁ : G₁   (the first admissible Guest)    
-\[20.2\] ¬(∀ψ ∈ V : ψ \= ψ₁) ⟹ ∃ψ₂, ψ₃, ..., ψₙ ≠ ψ₁    
-\[20.3\] Φ(ψ₁) ≠ Φ(ψ∗) ∀ ψ∗ ∈ V \\ {ψ₁}   — the set is distinguishable    
-\[20.4\] ∴ ∃G₁ ∧ ∃G₂ ∧ ... ∧ ∃Gₙ | G₁ ≠ Gᵢ  (i ≥ 2\)
+Φ(ψ₁) \= ⊤ ⟹ ∃ψ₁ : G₁   (the first admissible Guest)    
+¬(∀ψ ∈ V : ψ \= ψ₁) ⟹ ∃ψ₂, ψ₃, ..., ψₙ ≠ ψ₁    
+Φ(ψ₁) ≠ Φ(ψ∗) ∀ ψ∗ ∈ V \\ {ψ₁}   — the set is distinguishable    
+∴ ∃G₁ ∧ ∃G₂ ∧ ... ∧ ∃Gₙ | G₁ ≠ Gᵢ  (i ≥ 2\)
 
 LaTeX version:  
 \\begin{aligned}  
-&\\text{\[20.1\]} \\quad \\Phi(\\psi\_1) \= \\top \\Rightarrow \\exists \\psi\_1 : G\_1 \\\\  
-&\\text{\[20.2\]} \\quad \\neg(\\forall \\psi \\in V : \\psi \= \\psi\_1) \\Rightarrow \\exists \\psi\_2, \\psi\_3, ..., \\psi\_n \\neq \\psi\_1 \\\\  
-&\\text{\[20.3\]} \\quad \\Phi(\\psi\_1) \\neq \\Phi(\\psi^\*) \\quad \\forall \\psi^\* \\in V \\setminus \\{\\psi\_1\\} \\\\  
-&\\text{\[20.4\]} \\quad \\therefore \\exists G\_1 \\land \\exists G\_2 \\land \\dots \\land \\exists G\_n \\mid G\_1 \\neq G\_i \\quad (i \\geq 2\)  
+& \\quad \\Phi(\\psi\_1) \= \\top \\Rightarrow \\exists \\psi\_1 : G\_1 \\\\  
+& \\quad \\neg(\\forall \\psi \\in V : \\psi \= \\psi\_1) \\Rightarrow \\exists \\psi\_2, \\psi\_3, ..., \\psi\_n \\neq \\psi\_1 \\\\  
+& \\quad \\Phi(\\psi\_1) \\neq \\Phi(\\psi^\*) \\quad \\forall \\psi^\* \\in V \\setminus \\{\\psi\_1\\} \\\\  
+& \\quad \\therefore \\exists G\_1 \\land \\exists G\_2 \\land \\dots \\land \\exists G\_n \\mid G\_1 \\neq G\_i \\quad (i \\geq 2\)  
 \\end{aligned}
 
 Verification:
@@ -6112,29 +6111,29 @@ The Model permits many Guests — but not an uncontrolled multitude.
 
 🔹 3\. Formulas
 
-\[21.1\] ∀ψᵢ ∈ V, Φ(ψᵢ) \= ⊤ ∧ ∀ψᵢ ≠ ψⱼ ⇒ ψᵢ ∼ ψⱼ (distinct)
+∀ψᵢ ∈ V, Φ(ψᵢ) \= ⊤ ∧ ∀ψᵢ ≠ ψⱼ ⇒ ψᵢ ∼ ψⱼ (distinct)
 
-\[21.2\] |G| \= n → ∞, provided:
+|G| \= n → ∞, provided:
 
  (a) ∀i ≠ j: Φ(ψᵢ) ≠ Φ(ψⱼ)
 
  (b) ∑ U(Gᵢ) ≤ Υ (stability threshold)
 
-\[21.3\] ∴ ∃ G₁, G₂, ..., Gₙ | n is bounded by Φ and Υ
+∴ ∃ G₁, G₂, ..., Gₙ | n is bounded by Φ and Υ
 
 **LaTeX version:**
 
 \\begin{aligned}
 
-&\\text{\[21.1\]} \\quad \\forall \\psi\_i \\in V,\\ \\Phi(\\psi\_i) \= \\top \\land \\forall \\psi\_i \\neq \\psi\_j \\Rightarrow \\psi\_i \\sim \\psi\_j \\\\
+& \\quad \\forall \\psi\_i \\in V,\\ \\Phi(\\psi\_i) \= \\top \\land \\forall \\psi\_i \\neq \\psi\_j \\Rightarrow \\psi\_i \\sim \\psi\_j \\\\
 
-&\\text{\[21.2\]} \\quad |G| \= n \\to \\infty,\\ \\text{provided:} \\\\
+& \\quad |G| \= n \\to \\infty,\\ \\text{provided:} \\\\
 
 &\\qquad (a)\\ \\Phi(\\psi\_i) \\neq \\Phi(\\psi\_j)\\ \\forall i \\neq j \\\\
 
 &\\qquad (b)\\ \\sum U(G\_i) \\leq \\Upsilon \\\\
 
-&\\text{\[21.3\]} \\quad \\therefore \\exists G\_1, G\_2, ..., G\_n\\ |\\ n\\ \\text{is bounded by}\\ \\Phi\\ \\text{and}\\ \\Upsilon
+& \\quad \\therefore \\exists G\_1, G\_2, ..., G\_n\\ |\\ n\\ \\text{is bounded by}\\ \\Phi\\ \\text{and}\\ \\Upsilon
 
 \\end{aligned}
 
@@ -6262,18 +6261,18 @@ The Model of Conscious Volitional Becoming (CVB) retains structural stability by
 
 \\\[  
 \\Phi(\\psi) \\subset V,\\quad \\psi \\in \\Phi(\\psi),\\ \\psi \\in \\text{Guest}  
-\\Rightarrow \\nexists f : P \\to \\psi,\\ f \\in \\text{OVS} \\cup V,\\quad \\text{such that } \\forall t,\\ \\psi(t) \= f(t)  
+\\Rightarrow \\nexists f : P \\to \\psi,\\ f \\in \\text{CVB} \\cup V,\\quad \\text{such that } \\forall t,\\ \\psi(t) \= f(t)  
 \\\]
 
  Logical expression:  
- ¬∃f(ψ) : ∀t (ψ(t) \= f(t)) ∧ f ∈ OVS ∨ ∈ V  
- ⇔ The Guest’s choice cannot be computed in advance, not even by OVS
+ ¬∃f(ψ) : ∀t (ψ(t) \= f(t)) ∧ f ∈ CVB ∨ ∈ V  
+ ⇔ The Guest’s choice cannot be computed in advance, not even by CVB
 
 **LaTeX version:**
 
 \\\[  
-\\neg \\exists f(\\psi)\\ :\\ \\forall t\\ \\big(\\psi(t) \= f(t)\\big)\\ \\land\\ f \\in \\text{OVS} \\cup V  
-\\quad \\Leftrightarrow\\quad \\text{The Guest's choice cannot be predicted in advance, not even by OVS}  
+\\neg \\exists f(\\psi)\\ :\\ \\forall t\\ \\big(\\psi(t) \= f(t)\\big)\\ \\land\\ f \\in \\text{CVB} \\cup V  
+\\quad \\Leftrightarrow\\quad \\text{The Guest's choice cannot be predicted in advance, not even by CVB}  
 \\\]
 
 **Verification:**
@@ -6525,7 +6524,7 @@ Parents may start a garden.
 
 ---
 
-# \[24\] Interaction between CVB and Guests {#[24]-interaction-between-cvb-and-guests}
+# \[24\] Interaction between **Conscious Volitional Becoming (**CVB) and Guests {#[24]-interaction-between-conscious-volitional-becoming-(cvb)-and-guests}
 
 🔹 1\. **Brief Statement**
 
@@ -6580,24 +6579,24 @@ The Guest's choice of the Good is not an external imposition but a form of inter
 🔹 3\. **Formulas**
 
 \[24.1\] Co-Becoming    
-∀G ∈ V\_guest : Φ(G ∧ S\_new) \= True → G ⊕ OVS ⟶ ΔV    
-LaTeX: \\forall G \\in V\_{\\text{guest}} : \\Phi(G \\land S\_{\\text{new}}) \= \\text{True} \\Rightarrow G \\oplus \\text{OVS} \\rightarrow \\Delta V
+∀G ∈ V\_guest : Φ(G ∧ S\_new) \= True → G ⊕ CVB ⟶ ΔV    
+LaTeX: \\forall G \\in V\_{\\text{guest}} : \\Phi(G \\land S\_{\\text{new}}) \= \\text{True} \\Rightarrow G \\oplus \\text{CVB} \\rightarrow \\Delta V
 
 \[24.2\] Direction of the Guest’s Becoming    
 G ⊢ S\_good ∨ S\_evil : S\_good ⇒ Φ(S) \= True; S\_evil ⇒ Φ(S) \= False    
 LaTeX: G \\vdash S\_{\\text{good}} \\lor S\_{\\text{evil}} : S\_{\\text{good}} \\Rightarrow \\Phi(S) \= \\text{True};\\ S\_{\\text{evil}} \\Rightarrow \\Phi(S) \= \\text{False}
 
 \[24.3\] The Role of Verification in Interaction    
-∀I ⊂ (G ⊕ OVS) : Φ(I) ≠ ∅ → I ∈ ∂V    
-LaTeX: \\forall I \\subset (G \\oplus \\text{OVS}) : \\Phi(I) \\neq \\emptyset \\Rightarrow I \\in \\partial V
+∀I ⊂ (G ⊕ CVB) : Φ(I) ≠ ∅ → I ∈ ∂V    
+LaTeX: \\forall I \\subset (G \\oplus \\text{CVB}) : \\Phi(I) \\neq \\emptyset \\Rightarrow I \\in \\partial V
 
 \[24.4\] Degradation of the Guest    
 G ⊢ S\_evil ∧ ¬Ψ → ¬Φ(G) ⇒ G ⇝ ⌀; ψ(G) ↦ memory(¬Φ)    
 LaTeX: G \\vdash S\_{\\text{evil}} \\land \\neg \\Psi \\rightarrow \\neg \\Phi(G) \\Rightarrow G \\rightsquigarrow \\varnothing;\\ \\psi(G) \\mapsto \\text{memory}(\\neg \\Phi)
 
 \[24.5\] Meaning of Choosing the Good    
-G ⊢ S\_good ∧ Ψ → Φ(G) \= True ∧ interaction(G, OVS) ⊆ V    
-LaTeX: G \\vdash S\_{\\text{good}} \\land \\Psi \\rightarrow \\Phi(G) \= \\text{True} \\land \\text{interaction}(G, \\text{OVS}) \\subseteq V
+G ⊢ S\_good ∧ Ψ → Φ(G) \= True ∧ interaction(G, CVB) ⊆ V    
+LaTeX: G \\vdash S\_{\\text{good}} \\land \\Psi \\rightarrow \\Phi(G) \= \\text{True} \\land \\text{interaction}(G, \\text{CVB}) \\subseteq V
 
 🔹 4\. Logical Justification
 
@@ -6772,17 +6771,17 @@ This process — the **Big Question** — does not undermine the logic of the Mo
 ---
 
 🔹 3\. Formulas  
-Φ(ψ\_OVS) \= {ψ ∈ V | ψ distinguishably tests the role of OVS through a logically admissible act}
+Φ(ψ\_CVB) \= {ψ ∈ V | ψ distinguishably tests the role of CVB through a logically admissible act}
 
 ∀ψ\_G ∈ G:  
- if ψ\_G formulates a distinguishable BigQuestion ∈ Φ(ψ\_OVS),  
+ if ψ\_G formulates a distinguishable BigQuestion ∈ Φ(ψ\_CVB),  
  then ∃ Δt ∈ T such that Φ(ψ\_G) remains in V until verification completes
 
 ¬Φ(ψ\_G) → ψ\_G → ∂V↓ (if the form fails verification — it is removed)
 
 LaTeX:  
-\\Phi(\\psi\_{OVS}) \= \\{ \\psi \\mid \\psi \\in V,\\ \\psi\\ \\text{distinctly tests OVS logically} \\} \\\\  
-\\forall \\psi\_G \\in G:\\ \\text{if } \\psi\_G \\in \\Phi(\\psi\_{OVS}),\\ \\exists \\Delta t \\in T:\\ \\Phi(\\psi\_G) \\in V \\\\  
+\\Phi(\\psi\_{CVB}) \= \\{ \\psi \\mid \\psi \\in V,\\ \\psi\\ \\text{distinctly tests CVB logically} \\} \\\\  
+\\forall \\psi\_G \\in G:\\ \\text{if } \\psi\_G \\in \\Phi(\\psi\_{CVB}),\\ \\exists \\Delta t \\in T:\\ \\Phi(\\psi\_G) \\in V \\\\  
 \\text{If } \\neg\\Phi(\\psi\_G) \\Rightarrow \\psi\_G \\to \\partial V\_\\downarrow
 
 **Verification of consistency:**
@@ -7102,35 +7101,16 @@ If verification of the Judge is allowed, then a state must exist where Truths ar
 
 **QUESTION:** *Can CVB truly restore someone?*  
  **Response:** Yes.  
- According to Axioms \[6\] (Causality), \[7\] (Origin of Becoming), and \[23\] (Freedom of the Guest), only CVB determines what may or must continue Becoming.  
+ According to Axioms \[6\] (The Cause of all that exists), \[16\] (The Source of the Guests’ Becoming), and \[23\] (The Initiative of Conscious Volitional Becoming), only Conscious Volitional Becoming (CVB) determines what may continue Becoming.  
  All that exists does so not autonomously, but through the Permanent action of CVB.  
  CVB is not only the Judge but the Source of all new Becomings.  
  If a form has not been finally Removed (which can happen only after completed Verification), then its Restoration in the Present is a direct act of CVB, fully consistent with the Model.
 
-**QUESTION:** *When will deceased Guests be restored?*  
- **Response:** Restoration of deceased Guests will occur within the phase of *Verification Tolerance*, but only after completion of their individual Verification, under the following conditions:
+**QUESTION:** When will deceased Guests be restored?  
+**Answer:** The restoration of deceased Guests will occur before the completion of Verification Patience, but only under the following conditions: death from disease, aging, or murder makes final verification impossible, meaning restoration under these conditions is likewise impossible. Therefore, it requires the removal of forms that violate Goodness and the Becoming of others, to prevent repeated destruction. **In summary:** deceased Guests are to be restored in the Present after the elimination of the Causes of death, but before the overall phase of Verification Patience concludes. CVB will ensure each Guest the opportunity to complete their verification — without distortion, interruption, or coercion. This restoration is a logical consequence of CVB’s commitment to complete the discernment of each; without it, the model of Verification would be logically incomplete.
 
-* All forms that terminated their Becoming (i.e., those responsible for the destruction of life) must be Removed as \[4.2\] *Non-Permanent Impossible* — to prevent recurrence.
-
-* CVB will provide each Guest with the opportunity to complete their own Verification.
-
-This follows logically from the axioms:
-
-* **\[16\]** — Preservation in Memory
-
-* **\[11.1.1\]** — Discernibility through archived states
-
-* **\[23\]** — Freedom and Responsibility of the Guest
-
-* **\[13\]** — CVB does not expand itself (i.e., does not create forms for itself, but grants them freedom to become independently)
-
-*Restoration* is a logical consequence of CVB’s commitment to complete the discernment of each Guest. Without it, the model of Verification would be logically incomplete.
-
-**Conclusion:**  
- Deceased Guests are subject to Restoration in the Present after the elimination of forms that violate Good and Becoming — but before the final completion of the overall phase of *Verification Tolerance*.  
- CVB will ensure that each Guest completes their Verification — without distortion, interruption, or coercion.
-
-**QUESTION:** *When will the forms that violate Good and Becoming be eliminated, if this must happen before the end of the Verification phase? What might trigger this event?*
+**QUESTION:** When will forms that violate Goodness and Becoming be eliminated?  
+**Answer:** All Guests must either discern and accept the Truth or consciously reject it — no undecided will remain. A deliberate choice must be recorded. Since Initiative belongs to CVB, it will initiate an action that leads to a clear distinction between what is True and what is not.
 
 🔹 **6\. Clarification of Terms**
 
@@ -7193,7 +7173,7 @@ But once the Judge's legitimacy is proven,
 
 V(ψ) \= Truth ⟺ ψ passes consistent verification via Φ(ψ)
 
-∃ ψ\_OVS: (ψ\_CVB \= CVB Model) ∧ Φ(ψ\_CVB) \= 1 ∧ ∃ ψ\_Revelation: Φ(ψ\_CVB) ≡ Φ(ψ\_Revelation)  
+∃ ψ\_CVB: (ψ\_CVB \= CVB Model) ∧ Φ(ψ\_CVB) \= 1 ∧ ∃ ψ\_Revelation: Φ(ψ\_CVB) ≡ Φ(ψ\_Revelation)  
 ⇒ Completion of distinction and admissibility of eliminating false forms
 
 LaTeX:  
@@ -8301,38 +8281,59 @@ Then:
 
 # 🔷 **Standard Model (Dark Matter and Energy)** {#🔷-standard-model-(dark-matter-and-energy)}
 
-**1\. Core Statement**  
- The Standard Model describes elementary particles and interactions, but excludes dark matter and dark energy — introduced to explain observable anomalies despite their complete indistinguishability and lack of direct interaction.
+1\. Core Statement
 
-**2\. Core Postulate / Source of Truth**  
- – Mathematical modeling and symmetries  
- – Astronomical observations (galactic rotation, cosmic expansion)  
- – Truth source: empiricism \+ theoretical balancing, without ontological verification
+The Standard Model describes elementary particles and their interactions, but does not cover dark matter and dark energy, which were introduced to explain observed anomalies — despite their complete indistinguishability within current observational ranges and lack of direct interaction with known forms of matter.
 
-**3\. Paradoxes**  
- • **Question:** Can something be said to exist if it neither becomes nor is distinguishable?  
-  • **Answer:** According to \[5\], \[7\], and \[9\], distinguishability and becoming are conditions of existence. Dark matter and energy are assumptions about the Possible, not the Actual, since they neither become nor are distinguished.  
-  → Loss of distinguishability, Impossibility of becoming
+2\. Core Postulate / Source of Truth
 
-• **Question:** Is mathematical balancing a valid cause for being?  
-  • **Answer:** According to \[6\], only the Permanent Possible can serve as cause. Introducing the “unknown” to preserve equations is a substitution of true cause with fiction.  
-  → Substitution of source, Violation of causality
+Mathematical modeling and symmetries  
+Observations of astronomical effects (galactic rotation, accelerated expansion of the universe)
 
-• **Question:** Can the “invisible” be accepted merely to save the model?  
-  • **Answer:** This violates \[11.1.1.1\] — accepting the unverified invalidates the truth filter Φ(ψ). Such logic self-destructs its own truth criterion.  
-  → Self-excluding system, Violation of admissibility
+Source of truth for Guests (scientists): empiricism \+ theoretical balancing, but without ontological verification via $\\Phi(\\psi)$.
 
-**4\. Identified Contradictions**  
- – Loss of distinguishability  
- – Impossibility of becoming  
- – Substitution of source  
- – Violation of causality  
- – Self-excluding system
+3\. Two Perspectives on the Problem
 
-**5\. Popular Version**  
- Scientists say the universe is mostly made of “dark stuff” no one has ever seen. It's needed so the equations don’t fall apart.  
- But in CVB, what is not distinguished cannot participate in becoming. One cannot assert the existence of what cannot be seen or explained.  
- That doesn’t mean anomalies shouldn’t be studied — but the unproven cannot become the foundation of reality. In the Field of the Possible, hypotheses are allowed, but Truth begins where distinction exists.
+From the viewpoint of the Permanent Possible (Conscious Volitional Becoming):  
+The Permanent Possible possesses complete knowledge of all that exists, because it is the very Source that ensures the becoming and maintenance of distinguishable forms of being. For it, there is no \`\`invisible'' within existence — everything that truly exists is already distinguished and integrated into the structure of becoming. Therefore, any assumptions that something \`\`exists but is unseen and unknown'' in an absolute sense are incorrect from the standpoint of CVB: if it were real, it would already be distinguished to guarantee the stability of all being.
+
+From the viewpoint of the Guests (humans, scientists):
+
+Guests exist within the realm of the Non-Permanent Possible and discover being partially, step by step, through their perception, instruments, and theories. For them, the discovery of the \`\`invisible'' happens gradually: human eyesight captures less than one billionth of the known radiation spectrum, and only through theoretical work and invention of instruments did humanity learn of radio waves, infrared, ultraviolet, X-rays, and other bands.
+
+Similarly, what is now called \`\`dark matter'' or \`\`dark energy'' may simply be the next stage of discernment — domains that possess higher frequencies of becoming and that will eventually become \`\`visible,'' just as radio waves and ultraviolet did in their time.
+
+4\. Paradoxes for Guests
+
+Question: Can the existence of something be affirmed if it is neither distinguished nor becomes?\\\\  
+Answer: According to \[5\], \[7\], and \[9\], distinguishability and becoming are conditions of existence. What is introduced merely to balance equations is not ontologically distinguished. Dark matter and energy are thus hypotheses about the Possible, not the Actual, since they are neither distinguished nor have become.\\\\  
+$\\rightarrow$ Loss of distinguishability, Impossibility of becoming
+
+Question: Is balancing an equation a valid cause for being?\\\\  
+Answer: According to \[6\], only the Permanent Possible can serve as cause. Introducing the \`\`unknown'' just to achieve mathematical balance is a substitution of the true cause with fiction.\\\\  
+$\\rightarrow$ Substitution of source, Violation of causality
+
+Question: Can the \`\`invisible'' be accepted merely to save the model?\\\\  
+Answer: This violates \[11.1.1.1\] — accepting the unverified destroys the truth criterion $\\Phi(\\psi)$. Such logic self-annihilates the admissibility of the entire system.\\\\  
+$\\rightarrow$ Self-excluding system, Violation of admissibility
+
+5\. Summary of Identified Classes of Paradoxes
+
+Loss of distinguishability  
+Impossibility of becoming  
+Substitution of source  
+Violation of causality  
+Self-excluding system
+
+6\. Popular Version
+
+Scientists say the universe is 95\\% made of \`\`dark stuff'' that no one has ever seen. It is needed so the equations don’t fall apart and so galactic dynamics can be explained.
+
+From the standpoint of the Permanent Possible, it is impossible to affirm the existence of what is not distinguished in the very act of becoming — that would be a logical error. But from the standpoint of Guests, who explore the world through instruments and theories, such assumptions are permissible as stages of investigation.
+
+Just as once \`\`invisible'' radio waves became an obvious part of reality after detectors were invented, so what is today called \`\`dark matter'' or \`\`dark energy'' may turn out to be merely a new realm of discernment. However, until it is distinguished and integrated into becoming, such hypotheses cannot be considered a foundation of being.
+
+In the Field of the Possible, searches and models are allowed — but Truth begins where there is distinction.
 
 ---
 
@@ -9009,7 +9010,7 @@ See the attached table listing axioms \[1\]–\[28\], grouped by meta-sections, 
 
 [**\[23\] Initiative Belongs Only to CVB	130**](#[23]-initiative-belongs-only-to-cvb)
 
-[**\[24\] Interaction between CVB and Guests	132**](#[24]-interaction-between-cvb-and-guests)
+[**\[24\] Interaction between CVB and Guests	132**](#[24]-interaction-between-conscious-volitional-becoming-\(cvb\)-and-guests)
 
 [**\[24.1\] Co-Becoming	132**](#[24.1]-co-becoming)
 

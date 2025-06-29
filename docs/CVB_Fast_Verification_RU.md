@@ -1394,3 +1394,9 @@
 **✅ 5\. Самоисключающая система — не обнаружено**  
  Система не противоречит самой себе, не делает логически невозможных заявлений, не разрушает свои основания.
 
+License: CC BY 4.0 (Creative Commons Attribution)  
+[https://creativecommons.org/licenses/by/4.0/](https://creativecommons.org/licenses/by/4.0/)
+
+Author: Hospes Si (Latin: “Guest, if”)  
+All project documents: [github.com/HospesSi/CVB-model](http://github.com/HospesSi/CVB-model) 
+

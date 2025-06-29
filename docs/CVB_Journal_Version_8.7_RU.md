@@ -6,9 +6,8 @@
 **© 2025 Hospes Si. Все права защищены.**    
 **Этот труд может свободно распространяться в некоммерческих целях с указанием авторства.**
 
-**Лицензия: Creative Commons BY-NC-ND 4.0**    
-**Данный труд распространяется по лицензии Creative Commons**    
-**«Attribution–NonCommercial–NoDerivatives 4.0 International».**
+**License: CC BY 4.0 (Creative Commons Attribution)**  
+**https://creativecommons.org/licenses/by/4.0/**
 
 **Автор: Hospes Si (лат. «Гость, если»)**
 

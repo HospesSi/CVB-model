@@ -6,9 +6,8 @@ Journal Version 8.7
 © 2025 Hospes Si. All rights reserved.    
 This manuscript may be shared for non-commercial study with attribution.
 
-Licensed under Creative Commons BY-NC-ND 4.0    
-This work is licensed under a Creative Commons    
-Attribution–NonCommercial–NoDerivatives 4.0 International License.
+License: CC BY 4.0 (Creative Commons Attribution)  
+https://creativecommons.org/licenses/by/4.0/
 
 Author: Hospes Si (Latin: “Guest, if”)  
 All project documents: [github.com/HospesSi/CVB-model](http://github.com/HospesSi/CVB-model) 
