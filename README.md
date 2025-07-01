@@ -18,14 +18,12 @@ by speculation, but by formal, paradox-resistant logic.**
 - 📑 **Journal Version**: [DOCX](./docs/CVB_Journal_Version_8.7_EN.docx) · [EPUB](./docs/CVB_Journal_Version_8.7_EN.epub) · [MD](./docs/CVB_Journal_Version_8.7_EN.md) · [PDF](./docs/CVB_Journal_Version_8.7_EN.pdf)
 - 📣 **Big Public Version**: [DOCX](./docs/CVB_Big_Public_Version_8.7_EN.docx) · [EPUB](./docs/CVB_Big_Public_Version_8.7_EN.epub) · [MD](./docs/CVB_Big_Public_Version_8.7_EN.md) · [PDF](./docs/CVB_Big_Public_Version_8.7_EN.pdf) 
 - 📣 **Short Public Version**: [DOCX](./docs/CVB_Short_Public_Version_8.7_EN.docx) · [EPUB](./docs/CVB_Short_Public_Version_8.7_EN.epub) · [MD](./docs/CVB_Short_Public_Version_8.7_EN.md) · [PDF](./docs/CVB_Short_Public_Version_8.7_EN.pdf)
-- 📘 **Fast Verification**: [DOCX](./docs/CVB_Fast_Verification_EN.docx) · [EPUB](./docs/CVB_Fast_Verification_EN.epub) · [MD](./docs/CVB_Fast_Verification_EN.md) · [PDF](./docs/CVB_Fast_Verification_EN.pdf)
 
 ### Русский (RU)
 - 📘 **Big Version**: [DOCX](./docs/CVB_Big_Version_8.7_RU.docx) · [EPUB](./docs/CVB_Big_Version_8.7_RU.epub) · [MD](./docs/CVB_Big_Version_8.7_RU.md) · [PDF](./docs/CVB_Big_Version_8.7_RU.pdf)
 - 📑 **Journal Version**: [DOCX](./docs/CVB_Journal_Version_8.7_RU.docx) · [EPUB](./docs/CVB_Journal_Version_8.7_RU.epub) · [MD](./docs/CVB_Journal_Version_8.7_RU.md) · [PDF](./docs/CVB_Journal_Version_8.7_RU.pdf)
 - 📣 **Big Public Version**: [DOCX](./docs/CVB_Big_Public_Version_8.7_RU.docx) · [EPUB](./docs/CVB_Big_Public_Version_8.7_RU.epub) · [MD](./docs/CVB_Big_Public_Version_8.7_RU.md) · [PDF](./docs/CVB_Big_Public_Version_8.7_RU.pdf) 
 - 📣 **Short Public Version**: [DOCX](./docs/CVB_Short_Public_Version_8.7_RU.docx) · [EPUB](./docs/CVB_Short_Public_Version_8.7_RU.epub) · [MD](./docs/CVB_Short_Public_Version_8.7_RU.md) · [PDF](./docs/CVB_Short_Public_Version_8.7_RU.pdf)
-- 📘 **Fast Verification**: [DOCX](./docs/CVB_Fast_Verification_RU.docx) · [EPUB](./docs/CVB_Fast_Verification_RU.epub) · [MD](./docs/CVB_Fast_Verification_RU.md) · [PDF](./docs/CVB_Fast_Verification_RU.pdf)
 
 📁 See the [`/docs`](./docs) folder for all formats.
 
